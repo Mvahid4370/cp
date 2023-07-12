@@ -14,12 +14,14 @@ import { PanelBarModule } from '@progress/kendo-angular-layout';
 
 import { HomeComponent } from '../home/home.component';
 import { WikiHelpComponent } from '../home/help/wiki-help.component';
+import { HomePageComponent } from '../home/home-page/home-page.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    WikiHelpComponent
+    WikiHelpComponent,
+    HomePageComponent
   ],
   imports: [
     CommonModule,
